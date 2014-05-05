@@ -1,8 +1,7 @@
 {
   "name": "grunt-og",
   "version": "0.0.0",
-  "description": "add open graph data using grunt",
-  "main": "index.js",
+  "description": "add open graph metadata using grunt",
   "scripts": {
     "test": "grunt test"
   },
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/dunckr/grunt-og",
   "devDependencies": {
+    "chai": "^1.9.1",
     "grunt": "~0.4.4",
     "grunt-mocha-cli": "~1.8.0"
   },
